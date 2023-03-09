@@ -1,0 +1,47 @@
+li.f{
+    padding:0 .25rem;
+    transition: all .5s;
+}
+li.f:first-child{
+    margin-top: .25rem;
+}
+li.f:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    cursor: pointer;
+}
+li.f:active{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+li.unread{
+    animation-name: fire;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+li.unread .f-name{
+    color:#40bf42;
+}
+
+.f-pre{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #123;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+@keyframes fire {
+    from{
+        background-color:#add8e63b;
+        opacity: 1;
+    }to{
+        color:transparent;
+        opacity:1;
+    }
+}

@@ -1,0 +1,367 @@
+@import "../../css/variables.scss";
+
+.single-section {
+  .user-friends {
+    margin-top: 1.8rem;
+  }
+  .user-icon-search:hover i {
+    transition: all 0.5s;
+    color: #fff !important;
+  }
+  .user-icon-search {
+    cursor: pointer;
+  }
+  .user-icon-dow {
+    margin-right: 0.25rem;
+  }
+  .user-header {
+    background-color: inherit;
+    /* background-color: rgba(173, 216, 230, 0.048); */
+    padding: 0.25rem;
+  }
+  .user-header h3,
+  .user-header i {
+    color: rgba(255, 255, 255, 0.513);
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .user-header .user-title {
+    width: 100%;
+    max-width: 100%;
+  }
+  .user-header h3 {
+    max-width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  li.f {
+    padding: 0 0.25rem;
+    transition: all 0.5s;
+  }
+  li.f:first-child {
+    margin-top: 0.25rem;
+  }
+  li.f:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+    cursor: pointer;
+  }
+  li.f:active {
+    background-color: rgba(255, 255, 255, 0.205);
+  }
+  .f-pre {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #122;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  .f-offline {
+    color: $usercoloronline;
+  }
+  .f-online {
+    color: #2eb82e;
+  }
+  .f-name {
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 0.25rem;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 80%;
+  }
+  // About user descriptions
+  .call-messages {
+    margin-top: 1.3rem;
+    color: $lightgreenhover;
+    padding-bottom: 0.5rem;
+    .audio-call:hover,
+    .video-call:hover,
+    .count-new-messages:hover {
+      color: $lightgreen;
+      transition: all 0.5s;
+    }
+    .audio-call,
+    .video-call,
+    .count-new-messages {
+      cursor: pointer;
+      margin-left: 1rem;
+      font-size: 1.2rem;
+      &.count-new-messages {
+        .badge-number {
+          top: -90%;
+          right: -60%;
+          text-align: center;
+          width: 100%;
+          height: 100%;
+          border-radius: 0.25rem;
+          color: $white;
+          background-color: $usercoloronline;
+          font-weight: $fontweightNotification;
+        }
+      }
+    }
+  }
+  .chat-descriptions {
+    background-color: $themeColor !important;
+  }
+  .user-infos .circle {
+    padding-top: 0.58rem;
+  }
+  .chat-container .chat-descriptions {
+    width: 25%;
+    height: 100%;
+    max-width: 40%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .UserFriendDescriptions {
+    position: sticky;
+    top: 0;
+    background-color: inherit;
+  }
+  // tabs section
+  .tabs {
+    color: $white;
+  }
+  .tabs .tab:last-child {
+    border-right: 0;
+  }
+  .tabs .tab {
+    text-align: center;
+    padding: 0.5rem;
+    width: 33.3%;
+    border-right: 1px solid $bordermediumlight;
+    text-transform: capitalize;
+    font-family: $Arial;
+    font-weight: bold;
+    transition: all 0.5s;
+    &:hover {
+      background-color: $tabhover;
+      cursor: pointer;
+    }
+    &:active {
+      background-color: $tabactive;
+    }
+  }
+  .doc,
+  .MediaElement,
+  .CustomLink {
+    border-bottom: 1px solid $bordermediumlight;
+    transition: all 0.25s;
+    &:hover {
+      background-color: $tabhover;
+    }
+  }
+  .tab-contents .tab-content-item {
+    // padding: 0.5rem;
+    padding: 5px;
+    padding-left: 0;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    .file {
+      width: 90%;
+      max-width: 90%;
+      .logo {
+        margin-right: 0.25rem;
+        width: 50px;
+        height: 50px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $Arial;
+        text-transform: uppercase;
+      }
+
+      .logo.media,
+      .logo.media,
+      .logo.link {
+        color: $lightgreen;
+      }
+      .w {
+        background-color: $bgDocWord;
+      }
+      .pdf {
+        background-color: $bgPdf;
+      }
+      .name {
+        font-weight: bolder;
+        color: white;
+        font-family: $Arial;
+        max-width: 70%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .name.link {
+        max-width: 90%;
+      }
+    }
+    .download:hover {
+      color: $lightgreen;
+      cursor: pointer;
+    }
+  }
+  .FilesSingleSection {
+    border-top: 1px solid $bordermediumlight;
+
+    .tab-contents {
+      height: 90%;
+      max-height: 100%;
+      overflow-y: auto;
+      border-top: 1px solid $bordermediumlight;
+    }
+    .tabs {
+      height: 100%;
+      width: 100%;
+    }
+
+    .tab.active {
+      border-top: 1px solid $lightgreen;
+      background-color: $tabhover;
+      padding-top: 4px;
+    }
+    .tab-contents::-webkit-scrollbar-button {
+      display: none;
+    }
+    .tab-contents::-webkit-scrollbar {
+      background-color: #1122227c;
+      width: 4px;
+    }
+    .tab-contents::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.472);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  // single area message
+  .chat-Area-messages {
+    width: $widthAreaMessages;
+    max-width: $widthAreaMessages;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    .single-body-messages {
+      height: $bodyHeight;
+      width: 100%;
+      max-width: 100%;
+      max-height: $bodyHeight;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0.5rem;
+      color: $white;
+      background-color: inherit;
+      .message-content {
+        min-width: 40%;
+        max-width: 50%;
+        background-color: #123;
+        border-radius: 0.7rem;
+      }
+      .message-entered {
+        .message-content {
+          padding: 0;
+          padding-bottom: 0.5rem;
+          .message {
+            padding: 0.25rem;
+          }
+          .message-time {
+            float: right;
+            margin-right: 0.5rem;
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+          }
+        }
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 0.25rem;
+        background-color: transparent;
+        font-size: 1rem;
+        font-family: $fontFamilyMessage;
+        border-radius: 0.5rem;
+        justify-content: flex-end;
+
+        .user-send {
+          padding: 0.5rem;
+          font-family: tahoma;
+          font-weight: 900;
+          text-transform: capitalize;
+          margin-bottom: 0.5rem;
+          /* background-color: #0f2e2e; */
+          background-color: #163131;
+          border-top-left-radius: 0.5rem;
+        }
+      }
+      .message-send {
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 0.25rem;
+        background-color: transparent;
+        font-size: 1rem;
+        font-family: $fontFamilyMessage;
+        border-radius: 0.5rem;
+        .message-content {
+          padding: 1rem;
+          .message-time {
+            float: right;
+            margin-right: 0.5rem;
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+    .no-messages {
+      font-size: 1.2rem;
+      font-family: $Arial;
+      margin-top: 0.5rem;
+      text-align: center;
+      padding: 1rem;
+    }
+    .box-input {
+      width: 100%;
+      max-width: 100%;
+      height: $boxHeight;
+      max-height: $boxHeight;
+      textarea.text-box-messages {
+        display: inline-block;
+        width: $withTextAreaSingleMessage;
+        max-height: 100%;
+        resize: none;
+        outline: 0;
+        height: 100%;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        font-family: inherit;
+        background-color: $themeColor;
+        border: 0;
+        color: white;
+      }
+      .send-message {
+        display: inline-block;
+        width: $widthBtnSubmit;
+        background-color: $themeColor;
+        border: 0;
+        color: $textColorNotSubmit;
+        cursor: pointer;
+        &.active {
+          color: $white;
+        }
+      }
+    }
+  }
+}

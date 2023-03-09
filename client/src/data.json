@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "michel",
+      "password": "12345",
+      "isauth": true,
+      "id": 1
+    },
+    {
+      "name": "lucrece",
+      "password": "12345",
+      "isauth": true,
+      "id": 2
+    },
+    {
+      "name": "sandrine",
+      "password": "12345",
+      "isauth": true,
+      "id": 3
+    },
+    {
+      "name": "maspy",
+      "password": "12345",
+      "isauth": true,
+      "id": 4
+    }
+  ]
+}

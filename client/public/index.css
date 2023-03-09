@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+ul > li {
+  list-style-type: none;
+}
+.d-flex {
+  display: flex;
+}
+.position-relative {
+  position: relative !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-start {
+  justify-content: start;
+}
+.align-items-center {
+  align-items: center;
+}
+.w-100 {
+  width: 100%;
+}

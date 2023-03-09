@@ -1,0 +1,47 @@
+.user-infos {
+  position: relative;
+}
+.user-infos .add-background-picture {
+  color: white;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  cursor: pointer;
+}
+.user-infos > .circle {
+  transition: all 0.25s;
+  display: flex;
+  padding-top: 1.5rem;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user-infos .circle-pre {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #123;
+  font-size: 1.5rem;
+}
+.user-infos .circle-pre .add-picture {
+  color: white;
+  align-self: start;
+  right: 0;
+  position: absolute;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.user-infos .circle > .user-name {
+  width: 100%;
+  text-transform: capitalize !important;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

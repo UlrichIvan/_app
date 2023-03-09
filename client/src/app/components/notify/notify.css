@@ -1,0 +1,52 @@
+.notify-right{
+    position: fixed;
+    width: 400px;
+    top:0;
+    background-color: #122;
+    z-index: 1000;
+    left: 150%;
+    transition: left .5s;
+    user-select: none;
+}
+.notify-left{
+    position: fixed;
+    width: 400px;
+    top:0;
+    background-color: #122;
+    z-index: 1000;
+    left: -150%;
+    transition: left .5s;
+    user-select: none;
+}
+.notify-right.enter{
+    left:calc(100% - 400px)!important;
+}
+.notify-left.enter{
+    left:0!important;
+}
+.notify>.header{
+    background-color: #22bb33;
+    padding: 0 .5rem;
+    user-select: none;
+}
+.notify>.message{
+    padding: .5rem;
+    color:white;
+}
+.notify .header-title{
+    text-transform: capitalize;
+    font-weight: 600;
+    color:darkgreen;
+}
+.notify>.header>.close{
+    cursor: pointer;
+}
+.notify>.progress{
+    background-color: #ffffff1e;
+    width: 100%;
+}
+.notify>.progress>.progress-bar{
+    height: 5px;
+    background-color: #227ebb;
+    width: 50%;
+}

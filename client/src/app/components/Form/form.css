@@ -1,0 +1,93 @@
+.form-user{
+    height: 100vh;
+    background-color: #123;
+}
+.form-user .form-group label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: .5rem;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.form-user .form-group input::placeholder{
+    text-transform: capitalize;
+}
+.form-user .form-group input{
+    display: inline-block;
+    width: 100%;
+    padding: .25rem;
+    padding-left: 0;
+    outline: 0;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid lightblue;
+    background-color: #add8e617;
+    height: 2.5rem;
+    font-size: 1.2rem;
+}
+.form-user .form-group{
+    margin-bottom: 1rem ;
+}
+.form-user .form-group small:last-child{
+   text-align: left;
+    color: orangered;
+}
+.form-user input:focus{
+    background-color: #122122a6;
+    transition: all .5s;
+}
+.form-user .form-group input.text-white{
+    color:white;
+}
+.form-center{
+    min-width: 40%;
+    max-width: 100%;
+}
+.btn-submit>.btn-success:hover{
+    background-color: black;
+    transition: all .5s;
+}
+.btn-submit>.btn-success:active{
+    background-color: rgb(61, 163, 78);
+}
+.btn-submit>.btn-success{
+    cursor: pointer;
+    padding: .5rem;
+    text-transform: capitalize;
+    background-color: #0000006c;
+    border-top: 0;
+    border-left: 0;
+    color: wheat;
+    border-radius: 4px;
+    border: 0;
+    font-size: 1.2rem;
+}
+.form-user .error{
+    color:orangered;
+    width: 100%;
+    display: block;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+}
+.title{
+    color:white;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+.form-user small{
+    display: block;
+    text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.form-user .no-account a{
+    text-decoration: none;
+    color: white;
+}
+.form-user .no-account{
+    margin-top: 1rem;
+
+}

@@ -1,0 +1,101 @@
+.user-friends {
+  margin-top: 1.8rem;
+}
+.user-icon-search:hover i {
+  transition: all 0.5s;
+  color: #fff !important;
+}
+.user-icon-search {
+  cursor: pointer;
+}
+.user-icon-dow {
+  margin-right: 0.25rem;
+}
+.user-header {
+  background-color: inherit;
+  border-top: 1px solid #ffffff36;
+  /* background-color: rgba(173, 216, 230, 0.048); */
+  padding: 0.25rem;
+}
+.user-header h3,
+.user-header i {
+  color: rgba(255, 255, 255, 0.513);
+  text-transform: capitalize;
+  text-align: center;
+}
+.user-header .user-title {
+  width: 100%;
+  max-width: 100%;
+}
+.user-header h3 {
+  max-width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+li.f {
+  padding: 0 0.25rem;
+  transition: all 0.5s;
+}
+li.f:first-child {
+  margin-top: 0.25rem;
+}
+li.f:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+}
+li.f:active {
+  background-color: rgba(255, 255, 255, 0.205);
+}
+.f-pre {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #122;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.f-offline {
+  color: #de0606;
+}
+.f-online {
+  color: #2eb82e;
+}
+.f-name {
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-left: 0.25rem;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 80%;
+}
+/* search input */
+#user-search-friend::placeholder {
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#user-search-friend {
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #4a4444a8;
+  outline: none;
+  height: 2rem;
+  font-size: 1rem;
+  transition: all 0.5s;
+  margin-top: 0;
+  color: white;
+}
+
+.user-title.search {
+  width: 92%;
+  max-width: 92%;
+}

@@ -1,0 +1,33 @@
+/* settings from user into chat: list of firends */
+.chat-setting {
+  user-select: none;
+  transition: transform 0.5s;
+  position: fixed;
+  width: 20%;
+  top: 3rem;
+  min-height: calc(100vh - 3rem);
+  max-height: calc(100vh - 3rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #0f2e2e;
+  z-index: 8000;
+  transform: translateX(110%);
+  right: 0;
+}
+
+.chat-setting.slide-left {
+  transform: translateX(0%);
+}
+
+.chat-setting::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.198);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chat-setting::-webkit-scrollbar-button {
+  display: none;
+}
+.chat-setting::-webkit-scrollbar {
+  background-color: #1122227c;
+  width: 8px;
+}

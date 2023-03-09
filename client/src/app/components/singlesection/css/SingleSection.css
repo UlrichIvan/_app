@@ -1,0 +1,433 @@
+.single-section .user-friends {
+  margin-top: 1.8rem;
+}
+
+.single-section .user-icon-search:hover i {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #fff !important;
+}
+
+.single-section .user-icon-search {
+  cursor: pointer;
+}
+
+.single-section .user-icon-dow {
+  margin-right: 0.25rem;
+}
+
+.single-section .user-header {
+  background-color: inherit;
+  /* background-color: rgba(173, 216, 230, 0.048); */
+  padding: 0.25rem;
+}
+
+.single-section .user-header h3,
+.single-section .user-header i {
+  color: rgba(255, 255, 255, 0.513);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.single-section .user-header .user-title {
+  width: 100%;
+  max-width: 100%;
+}
+
+.single-section .user-header h3 {
+  max-width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.single-section li.f {
+  padding: 0 0.25rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.single-section li.f:first-child {
+  margin-top: 0.25rem;
+}
+
+.single-section li.f:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+}
+
+.single-section li.f:active {
+  background-color: rgba(255, 255, 255, 0.205);
+}
+
+.single-section .f-pre {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #122;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.single-section .f-offline {
+  color: #de0606;
+}
+
+.single-section .f-online {
+  color: #2eb82e;
+}
+
+.single-section .f-name {
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-left: 0.25rem;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 80%;
+}
+
+.single-section .call-messages {
+  margin-top: 1.3rem;
+  color: #37f037bb;
+  padding-bottom: 0.5rem;
+}
+
+.single-section .call-messages .audio-call:hover,
+.single-section .call-messages .video-call:hover,
+.single-section .call-messages .count-new-messages:hover {
+  color: #37f037;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.single-section .call-messages .audio-call,
+.single-section .call-messages .video-call,
+.single-section .call-messages .count-new-messages {
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.single-section .call-messages .audio-call.count-new-messages .badge-number,
+.single-section .call-messages .video-call.count-new-messages .badge-number,
+.single-section .call-messages .count-new-messages.count-new-messages .badge-number {
+  top: -90%;
+  right: -60%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #de0606;
+  font-weight: 500;
+}
+
+.single-section .chat-descriptions {
+  background-color: #0f2e2e !important;
+}
+
+.single-section .user-infos .circle {
+  padding-top: 0.58rem;
+}
+
+.single-section .chat-container .chat-descriptions {
+  width: 25%;
+  height: 100%;
+  max-width: 40%;
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.single-section .UserFriendDescriptions {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+}
+
+.single-section .tabs {
+  color: #fff;
+}
+
+.single-section .tabs .tab:last-child {
+  border-right: 0;
+}
+
+.single-section .tabs .tab {
+  text-align: center;
+  padding: 0.5rem;
+  width: 33.3%;
+  border-right: 1px solid #ffffff36;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.single-section .tabs .tab:hover {
+  background-color: #4868725e;
+  cursor: pointer;
+}
+
+.single-section .tabs .tab:active {
+  background-color: #88d8886a;
+}
+
+.single-section .doc,
+.single-section .MediaElement,
+.single-section .CustomLink {
+  border-bottom: 1px solid #ffffff36;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.single-section .doc:hover,
+.single-section .MediaElement:hover,
+.single-section .CustomLink:hover {
+  background-color: #4868725e;
+}
+
+.single-section .tab-contents .tab-content-item {
+  padding: 5px;
+  padding-left: 0;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.single-section .tab-contents .tab-content-item .file {
+  width: 90%;
+  max-width: 90%;
+}
+
+.single-section .tab-contents .tab-content-item .file .logo {
+  margin-right: 0.25rem;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.single-section .tab-contents .tab-content-item .file .logo.media,
+.single-section .tab-contents .tab-content-item .file .logo.media,
+.single-section .tab-contents .tab-content-item .file .logo.link {
+  color: #37f037;
+}
+
+.single-section .tab-contents .tab-content-item .file .w {
+  background-color: rgba(0, 0, 255, 0.253);
+}
+
+.single-section .tab-contents .tab-content-item .file .pdf {
+  background-color: #b81313;
+}
+
+.single-section .tab-contents .tab-content-item .file .name {
+  font-weight: bolder;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.single-section .tab-contents .tab-content-item .file .name:hover {
+  text-decoration: underline;
+}
+
+.single-section .tab-contents .tab-content-item .file .name.link {
+  max-width: 90%;
+}
+
+.single-section .tab-contents .tab-content-item .download:hover {
+  color: #37f037;
+  cursor: pointer;
+}
+
+.single-section .FilesSingleSection {
+  border-top: 1px solid #ffffff36;
+}
+
+.single-section .FilesSingleSection .tab-contents {
+  height: 90%;
+  max-height: 100%;
+  overflow-y: auto;
+  border-top: 1px solid #ffffff36;
+}
+
+.single-section .FilesSingleSection .tabs {
+  height: 100%;
+  width: 100%;
+}
+
+.single-section .FilesSingleSection .tab.active {
+  border-top: 1px solid #37f037;
+  background-color: #4868725e;
+  padding-top: 4px;
+}
+
+.single-section .FilesSingleSection .tab-contents::-webkit-scrollbar-button {
+  display: none;
+}
+
+.single-section .FilesSingleSection .tab-contents::-webkit-scrollbar {
+  background-color: #1122227c;
+  width: 4px;
+}
+
+.single-section .FilesSingleSection .tab-contents::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.472);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single-section .chat-Area-messages {
+  width: 75%;
+  max-width: 75%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.single-section .chat-Area-messages .single-body-messages {
+  height: 90%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: inherit;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-content {
+  min-width: 40%;
+  max-width: 50%;
+  background-color: #123;
+  border-radius: 0.7rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-entered {
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: "fira code";
+  border-radius: 0.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-entered .message-content {
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-entered .message-content .message {
+  padding: 0.25rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-entered .message-content .message-time {
+  float: right;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-entered .user-send {
+  padding: 0.5rem;
+  font-family: tahoma;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  /* background-color: #0f2e2e; */
+  background-color: #163131;
+  border-top-left-radius: 0.5rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-send {
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: "fira code";
+  border-radius: 0.5rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-send .message-content {
+  padding: 1rem;
+}
+
+.single-section .chat-Area-messages .single-body-messages .message-send .message-content .message-time {
+  float: right;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.single-section .chat-Area-messages .no-messages {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.single-section .chat-Area-messages .box-input {
+  width: 100%;
+  max-width: 100%;
+  height: 10%;
+  max-height: 10%;
+}
+
+.single-section .chat-Area-messages .box-input textarea.text-box-messages {
+  display: inline-block;
+  width: 93%;
+  max-height: 100%;
+  resize: none;
+  outline: 0;
+  height: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  background-color: #0f2e2e;
+  border: 0;
+  color: white;
+}
+
+.single-section .chat-Area-messages .box-input .send-message {
+  display: inline-block;
+  width: 7%;
+  background-color: #0f2e2e;
+  border: 0;
+  color: #ffffff61;
+  cursor: pointer;
+}
+
+.single-section .chat-Area-messages .box-input .send-message.active {
+  color: #fff;
+}
